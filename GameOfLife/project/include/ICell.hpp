@@ -1,7 +1,12 @@
 #pragma once
-#include "types/State.hpp"
 
-namespace app::component
+namespace app
+{
+namespace types
+{
+enum class State;
+} // namespace types
+namespace component
 {
 class ICell
 {
@@ -11,4 +16,5 @@ public:
 
     virtual ~ICell() {};
 };
-} // namespace app::component
+} // namespace component
+} // namespace app

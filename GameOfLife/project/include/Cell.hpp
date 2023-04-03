@@ -1,6 +1,7 @@
 #pragma once
 
 #include <vector>
+#include "types/State.hpp"
 #include "ICell.hpp"
 
 namespace app::component
