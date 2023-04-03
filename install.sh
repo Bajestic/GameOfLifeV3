@@ -20,5 +20,5 @@ cmake ../GameOfLife -B./
 pwd
 make
 echo "Installed successful"
-cd ../GameOfLife
+cd ../GameOfLife/project
 rm -fdr CMakeFiles cmake_install.cmake CMakeCache.txt compile_commands.json Makefile
