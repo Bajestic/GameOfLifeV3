@@ -4,4 +4,5 @@ file(GLOB APP_SRC
   "./*.cpp"
 )
 
-add_executable(app ${APP_SRC})
+set(CMAKE_BUILD_DIRECTORY ../../build)
+add_executable(GameOfLife ${APP_SRC})
